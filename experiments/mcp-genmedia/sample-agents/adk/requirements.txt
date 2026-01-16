@@ -9,7 +9,7 @@ anyio==4.11.0
     #   mcp
     #   sse-starlette
     #   starlette
-authlib==1.6.4
+authlib==1.6.6
     # via google-adk
 cachetools==6.1.0
     # via google-auth
@@ -158,7 +158,7 @@ idna==3.10
     #   requests
 importlib-metadata==8.7.0
     # via opentelemetry-api
-mcp==1.14.1
+mcp==1.23.0
     # via google-adk
 numpy==2.3.3
     # via shapely
@@ -213,7 +213,7 @@ protobuf==6.31.1
     #   grpc-google-iam-v1
     #   grpcio-status
     #   proto-plus
-pyasn1==0.6.1
+pyasn1==0.6.2
     # via
     #   pyasn1-modules
     #   rsa
@@ -265,7 +265,7 @@ sqlalchemy==2.0.43
     # via google-adk
 sse-starlette==3.0.2
     # via mcp
-starlette==0.48.0
+starlette==0.49.1
     # via
     #   fastapi
     #   mcp
@@ -294,7 +294,7 @@ tzlocal==5.3.1
     # via google-adk
 uritemplate==4.2.0
     # via google-api-python-client
-urllib3==2.5.0
+urllib3==2.6.3
     # via requests
 uvicorn==0.36.1
     # via
